@@ -74,6 +74,8 @@ Your Glue job needs permission to read from and write to S3.
 
 > **Note:** The script is already configured to use the `handsonfinallanding` and `handsonfinalprocessed` buckets.
 
+<img width="1470" height="956" alt="Screenshot 2025-11-18 at 12 55 35 PM" src="https://github.com/user-attachments/assets/93246b24-8929-462f-a4ef-c6ce1c76c5fb" />
+
 ### 5. Create the Lambda Trigger Function
 This function will start the Glue job when a file is uploaded.
 
@@ -124,6 +126,8 @@ Your pipeline is now fully deployed and automated!
 2.  Upload `reviews.csv` to the root of your `handsonfinallanding` S3 bucket.
 3.  This will trigger the Lambda, which in turn starts the Glue job.
 4.  You can monitor the job's progress in the **AWS Glue** console under the **Monitoring** tab.
+
+<img width="1470" height="956" alt="Screenshot 2025-11-18 at 1 01 49 PM" src="https://github.com/user-attachments/assets/00d4d7f6-b9dd-4821-bc33-12b36afaa71d" />
 
 ---
 
